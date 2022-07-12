@@ -1,0 +1,51 @@
+Start testing: Jul 11 10:10 CDT
+----------------------------------------------------------
+1/1 Testing: MazeTests
+1/1 Test: MazeTests
+Command: "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build/test/MazeTests"
+Directory: /home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build/test
+"MazeTests" start time: Jul 11 10:10 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/googletest/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from MazeTest
+[ RUN      ] MazeTest.getName
+[       OK ] MazeTest.getName (0 ms)
+[ RUN      ] MazeTest.setAndGetNeighbor
+Replaced
+Beta
+[       OK ] MazeTest.setAndGetNeighbor (0 ms)
+[ RUN      ] MazeTest.moveRooms
+/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/test/MazeTest.cpp:83: Failure
+Expected: (nullptr) != (nxtRoom), actual: (nullptr) vs NULL
+[  FAILED  ] MazeTest.moveRooms (0 ms)
+[----------] 3 tests from MazeTest (0 ms total)
+
+[----------] 1 test from LockTest
+[ RUN      ] LockTest.setAndGetLockStatus
+[       OK ] LockTest.setAndGetLockStatus (0 ms)
+[----------] 1 test from LockTest (0 ms total)
+
+[----------] 1 test from DirectionTest
+[ RUN      ] DirectionTest.revdir
+[       OK ] DirectionTest.revdir (0 ms)
+[----------] 1 test from DirectionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MazeTest.moveRooms
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MazeTests" end time: Jul 11 10:10 CDT
+"MazeTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 11 10:10 CDT

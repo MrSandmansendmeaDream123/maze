@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-clang++"
+	BuildStamp="20220711-1510-Experimental"
+	Name="pop-os"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="14.0.0"
+	OSName="Linux"
+	Hostname="pop-os"
+	OSRelease="5.17.15-76051715-generic"
+	OSVersion="#202206141358~1655919116~22.04~1db9e34 SMP PREEMPT Wed Jun 22 19"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="33"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15909"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2200"
+	>
+	<Testing>
+		<StartDateTime>Jul 11 10:10 CDT</StartDateTime>
+		<StartTestTime>1657552245</StartTestTime>
+		<TestList>
+			<Test>./test/MazeTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>MazeTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/MazeTests</FullName>
+			<FullCommandLine>/home/christopherbenjaminscottii/Documents/Brandon's\ Assignments/classes/build/test/MazeTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0011798</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/christopherbenjaminscottii/Documents/Brandon's\ Assignments/classes/build/test/MazeTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytU8Fu2zAMvesruNNioLE3ZAOKAD2kSFoMy7LBSU9BUCgy52iTRUOS02JfP9nqvLhxkh3GiyTykXwUybTSWuocCi71IILvhgpIdlRgInZGWkflDs0W9Q9eSG0FOSdlMiVRFaidTW4N1xnptxYm1spcB61Q3Fq0SU6UK3Ro3eHVGpHk9e2xThoLwdY3rWwgfWH0EWqMDZRGzQNsJf0Zs/WwlQ3cK9pyFQCo99JQQwMsumFVvgKPDqN+4b9w5Z9sDenDAhrZtNo4R7fgBXprkK+fe6wweAeFjU6E8BwmOrv3UJT5bkuGpVgqLjBjt+j4idBHXueTFLTHlKiw7L91rmlUm0CU5fh6NIY7LlVlkM2eSxQOszEMdKVU6UwEb27849nVPKIr4MJVXB3a9xYWD/N5XfHd5NN8Nu0voa30YtMCEhw5riLWdXgfpqHBz0n8PG7yH+3fv641S8ddZbtdOYfsZduX/F/JTqXxPytJHzPumGKD+0yaLtM+xEWGHadzNE+tmUNuhhk96e4an15f8JMXdzP5Mr5NlsswFB+CZ9wdlcD5CpQfbcxgi4qexpemiTHv9wJYzZYr9htf7JIn====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jul 11 10:10 CDT</EndDateTime>
+		<EndTestTime>1657552245</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

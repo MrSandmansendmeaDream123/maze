@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes'
+make: Leaving directory '/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

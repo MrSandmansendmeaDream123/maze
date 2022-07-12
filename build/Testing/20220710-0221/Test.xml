@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-clang++"
+	BuildStamp="20220710-0221-Experimental"
+	Name="pop-os"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="14.0.0"
+	OSName="Linux"
+	Hostname="pop-os"
+	OSRelease="5.17.15-76051715-generic"
+	OSVersion="#202206141358~1655919116~22.04~1db9e34 SMP PREEMPT Wed Jun 22 19"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="33"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15909"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4200.1"
+	>
+	<Testing>
+		<StartDateTime>Jul 10 15:49 CDT</StartDateTime>
+		<StartTestTime>1657486142</StartTestTime>
+		<TestList>
+			<Test>./test/MazeTests</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>MazeTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/MazeTests</FullName>
+			<FullCommandLine>/home/christopherbenjaminscottii/Documents/Brandon's\ Assignments/classes/build/test/MazeTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0012508</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/christopherbenjaminscottii/Documents/Brandon's\ Assignments/classes/build/test/MazeTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzdVltv2jAUfvevOOvLQCqXXYAVqZPSQbtpjFVA1QeEJuOcJt4cO7Mdyvbr5yQ0JVxKK60Pm18Sn/PZ/s53To4zSqTkMoCIclmpwo1WETRCFWGDhZobq+IQ9RzldxpxaZiylvNGT7EkQmlN40xT6Sv50oBnDA9kbmWCGoOmESgVCLRo7Pqr0awRpG/f0kPrjJHpaTFmMFoxakOKMTmlN9kETMLds06mtWLM4EKoORU5AOWCa5XRAIO2lsQb4Lfru36hv3HipmQKo6shZGNWWOsB2iGN0Hnz8fXzDi9UmhCZ6p4tHAdP+hcOijwI50ob4ok4pMANcAlDpW1IztDeGfrUsfkQUi04rkxjlThMD0UBuk4p/7UkZTkpCLM47rZaXTinXCQaSX8ZI7PoA/5MqOD2F6gbsCEahAUVCZouAdBKRWbKZ7X3K1EqVZIKcR1yFjrSXTga9q/BG1x+9I6cx2IUP2JNptTRPYVij0DZzPcvinDWnzxFg7Q2NiRId3AKpJ5nFeDdEwWQiRCx1RsRDK8Gg41wNxDNZat1Mp+3/ZNO56b5n4XUbrWaaQM59z4N+r0DveGJvYSMMBaUoZ91kD1tamvVw4dEaoGjNKjnzEOns52HLlRWalfhxambLG3Ko3oMlFmXoXX/wuQ52K1rEUIR6cELIEeCVZaKKikveJXfLBl+oNiP7QvjznqvdWoZW2oTU87KQ8idbHcd/liyPa6dslzJbcYlV13jwue6zHQX4iDD0qKHaO67si1SXfPVrSz/Euz/FQBXefXySS6MS288zotile16uVRe59ZjEK62XQuYo1C33Ud/pofqjhB3wgow6Y8nY/IHy14XNQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jul 10 15:49 CDT</EndDateTime>
+		<EndTestTime>1657486142</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
