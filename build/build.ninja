@@ -235,6 +235,12 @@ build CMakeFiles/maze.dir/graph.cpp.o: CXX_COMPILER__maze_Debug /home/christophe
   OBJECT_DIR = CMakeFiles/maze.dir
   OBJECT_FILE_DIR = CMakeFiles/maze.dir
 
+build CMakeFiles/maze.dir/stringhandle.cpp.o: CXX_COMPILER__maze_Debug /home/christopherbenjaminscottii/Documents/Brandon's$ Assignments/classes/stringhandle.cpp || cmake_object_order_depends_target_maze
+  DEP_FILE = CMakeFiles/maze.dir/stringhandle.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/maze.dir
+  OBJECT_FILE_DIR = CMakeFiles/maze.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target maze
@@ -243,7 +249,7 @@ build CMakeFiles/maze.dir/graph.cpp.o: CXX_COMPILER__maze_Debug /home/christophe
 #############################################
 # Link the static library libmaze.a
 
-build libmaze.a: CXX_STATIC_LIBRARY_LINKER__maze_Debug CMakeFiles/maze.dir/room.cpp.o CMakeFiles/maze.dir/main.cpp.o CMakeFiles/maze.dir/graph.cpp.o
+build libmaze.a: CXX_STATIC_LIBRARY_LINKER__maze_Debug CMakeFiles/maze.dir/room.cpp.o CMakeFiles/maze.dir/main.cpp.o CMakeFiles/maze.dir/graph.cpp.o CMakeFiles/maze.dir/stringhandle.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/maze.dir
   POST_BUILD = :
@@ -278,6 +284,12 @@ build CMakeFiles/run.dir/graph.cpp.o: CXX_COMPILER__run_Debug /home/christopherb
   OBJECT_DIR = CMakeFiles/run.dir
   OBJECT_FILE_DIR = CMakeFiles/run.dir
 
+build CMakeFiles/run.dir/stringhandle.cpp.o: CXX_COMPILER__run_Debug /home/christopherbenjaminscottii/Documents/Brandon's$ Assignments/classes/stringhandle.cpp || cmake_object_order_depends_target_run
+  DEP_FILE = CMakeFiles/run.dir/stringhandle.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/run.dir
+  OBJECT_FILE_DIR = CMakeFiles/run.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target run
@@ -286,7 +298,7 @@ build CMakeFiles/run.dir/graph.cpp.o: CXX_COMPILER__run_Debug /home/christopherb
 #############################################
 # Link the executable run
 
-build run: CXX_EXECUTABLE_LINKER__run_Debug CMakeFiles/run.dir/room.cpp.o CMakeFiles/run.dir/main.cpp.o CMakeFiles/run.dir/graph.cpp.o
+build run: CXX_EXECUTABLE_LINKER__run_Debug CMakeFiles/run.dir/room.cpp.o CMakeFiles/run.dir/main.cpp.o CMakeFiles/run.dir/graph.cpp.o CMakeFiles/run.dir/stringhandle.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/run.dir

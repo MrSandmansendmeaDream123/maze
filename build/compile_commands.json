@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/maze.dir/stringhandle.cpp.o -c \"/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/stringhandle.cpp\"",
+  "file": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/stringhandle.cpp"
+},
+{
+  "directory": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build",
   "command": "/usr/bin/clang++ -g -o CMakeFiles/run.dir/room.cpp.o -c \"/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/room.cpp\"",
   "file": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/room.cpp"
 },
@@ -28,6 +33,11 @@
   "directory": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build",
   "command": "/usr/bin/clang++ -g -o CMakeFiles/run.dir/graph.cpp.o -c \"/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/graph.cpp\"",
   "file": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/graph.cpp"
+},
+{
+  "directory": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build",
+  "command": "/usr/bin/clang++ -g -o CMakeFiles/run.dir/stringhandle.cpp.o -c \"/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/stringhandle.cpp\"",
+  "file": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/stringhandle.cpp"
 },
 {
   "directory": "/home/christopherbenjaminscottii/Documents/Brandon's Assignments/classes/build",

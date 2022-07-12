@@ -17,12 +17,14 @@ add_subdirectory(googletest)
 set(Headers
     room.hpp
     graph.hpp
+    stringhandle.cpp
 )
 
 set(Sources 
     room.cpp 
     main.cpp
     graph.cpp
+    stringhandle.cpp
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
