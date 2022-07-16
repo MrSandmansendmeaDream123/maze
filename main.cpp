@@ -1,7 +1,8 @@
 #include "room.hpp"
 #include "graph.hpp"
 #include "stringhandle.hpp"
-
+#include "entitys/entity.hpp"
+#include "entitys/ghost.cpp"
 using namespace std;
 
 
@@ -10,10 +11,15 @@ using namespace std;
 int main(){
 	Room * r;
 	
-	//Room start("Start", rooms);
 
 	r = Graph().game();
-	cout<< "Your journey begins in room " << r -> getName()<<endl;
+
+
+	
+	StringHandle::potion();
+	printf("\033[32m\n");
+	cout<< "Your journey begins in a seemingly endless forest. You observe your surroundings and notice there are four directions... \nNot knowing what to do, you mark your current location as room 0" <<endl;
+	printf("\033[0m\n");
 	r -> getNeighbors();
     Room * temp = r;
 	bool gameState = true;
@@ -21,12 +27,26 @@ int main(){
 	
 	string f;   //maybe something over here
 	string command;
+
+ 
 	while(gameState){
-		cout<<"What would you like to do ? "<<endl;
+		cout<<"What would you like to do? "<<endl;
 		cin >> command;
-		//lower
 		StringHandle::toLowerString(command);
-		printf("\033[41m\n");
+		StringHandle::tokenizer(command);
+		//Movement Commands
+		
+		//Item Commands
+	    
+		//Specialty Commands
+        
+  
+
+
+
+
+
+		printf("\033[1m\n");
 		cout<<"Which direction will you travel? "  <<endl;
 		printf("\033[0m\n");
 
@@ -35,7 +55,7 @@ int main(){
 		cin>> f;
 		StringHandle::toLowerString(f);
 
-		cout<<f<<endl;
+		//cout<<f<<endl;
 		//swith case directions
 		if (f == "north"){  
 			r = r -> moveRooms(NORTH);
@@ -46,7 +66,7 @@ int main(){
 		else if (f == "south"){
 			r = r ->moveRooms(SOUTH); 
 		}
-		else if (f == "north"){
+		else if (f == "west"){
 			r = r -> moveRooms(WEST);
 		}
 		else { 

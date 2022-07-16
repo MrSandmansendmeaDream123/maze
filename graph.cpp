@@ -47,11 +47,11 @@ if(m_stack.top().second.first > 0 && m_maze[offset(-1,0)]->getVisited() == false
 //if we have pushed items onto the neighbor list
 if(!neighbors.empty()){
 //Chose at random direction the next path to take
-std::cout<<"=========================================="<<std::endl;
-std::cout<<m_stack.top().first->getName()<<" has "<< neighbors.size()<< " neighbors"<<std::endl;
+//std::cout<<"=========================================="<<std::endl;
+//std::cout<<m_stack.top().first->getName()<<" has "<< neighbors.size()<< " neighbors"<<std::endl;
 
 int randDir = neighbors[rand() % neighbors.size()];
-std::cout<<"Picked " << direction(randDir)<<std::endl;
+//std::cout<<"Picked " << direction(randDir)<<std::endl;
 
 //Path creation
 switch(randDir){
@@ -75,14 +75,14 @@ switch(randDir){
 
 //m_maze[offset(0,0)]->setVisited();
 m_stack.top().first->setVisited();
-std::cout<<"Added "<<m_stack.top().first-> getName()<< std::endl;
+//std::cout<<"Added "<<m_stack.top().first-> getName()<< std::endl;
 m_VistedRoomTotal++;
-std::cout<<"Visited Total: "<<m_VistedRoomTotal<<std::endl;
-std::cout<<"stack size "<<m_stack.size()<<std::endl;
-std::cout<<"=========================================="<<std::endl;
+//std::cout<<"Visited Total: "<<m_VistedRoomTotal<<std::endl;
+//std::cout<<"stack size "<<m_stack.size()<<std::endl;
+//std::cout<<"=========================================="<<std::endl;
 
 }else{
-    std::cout<<"Popped "<<m_stack.top().first->getName()<< std::endl;
+   // std::cout<<"Popped "<<m_stack.top().first->getName()<< std::endl;
     m_stack.pop();
 }
 

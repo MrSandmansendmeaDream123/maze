@@ -47,7 +47,7 @@
 	*/
 	//void Room::setNeighbors(const std::array<Room*, NEIGHBORCOUNT> rooms){ }
   	
-  	/*==========================IMPLEMENT==========================
+  	/*==========================DONE==========================
 	This method moves you from the current room, to the room in the direction you specify.
 	NOTE: We should not move to a room that does not exist!!!
   	*/
@@ -88,6 +88,10 @@ Room* Room::getNeighbor(int dir){
 //Return the ID of the current Room 
 int Room::getID(){
 	return m_id;
+}
+
+void Room::changeName(std::string newName){
+	m_name = newName;
 }
 
 

@@ -71,6 +71,7 @@ public:
 	Return a string with the current rooms name
 	*/
 	std::string getName();
+	void changeName(std::string newName);
 	
 
 	int getID();
@@ -121,11 +122,6 @@ private:
 	std::string m_name;
 	bool m_visited;
 	int m_id;
-	
-	
-
-
-
 };
 
 
