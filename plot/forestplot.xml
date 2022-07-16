@@ -1,0 +1,42 @@
+XML
+
+<forestplot>
+    <forest1>
+       Altough lost in the dense evergreen, you take notice of the chirping of the birds. There
+       must be atleast a dozen, each chirping it's own melody. The sun reflects off the surface of the
+       waving leaves. You feel at peace. Like you could stay here forever...
+    </forest1>
+    <forest2>
+        How much time has passed, you ponder long about this, however, nothing comes to mind. The
+        scenary is as picturesque as when you first arrived. Your hunger and thirst reamin brimful. Yet, 
+        You know something is amise in this woods, but as you walk your mind discards this thought.  
+    </forest2>
+    <forest3>
+        You can swear you have been to this tree before, not once, but twice. Something truly is amise with
+        these woods! Without further hesitation you speed your travels. The exit must be within reach
+    </forest3>
+    <forest4>
+        The alluring forest trees sway relize that there was never a breeze of wind... 
+    </forest4>
+    <forest5>
+        As you journey you take notice you are no longer alone...
+    </forest5>
+ </forestplot>
+
+ <caveplot>
+    <cave1>
+       
+    </cave1>
+    <cave2>
+        
+    </cave2>
+    <cave3>
+        
+    </cave3>
+    <cave4>
+        
+    </cave4>
+    <cave5>
+        
+    </cave5>
+ </caveplot>
